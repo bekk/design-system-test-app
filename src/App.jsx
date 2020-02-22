@@ -1,9 +1,8 @@
 import React from "react";
-import "./App.css";
 import { c } from "classy-ui";
 
 function App() {
-  return <h1 className={c("background-color-grey-400")}>Hello</h1>;
+  return <h1>Hello, World!</h1>;
 }
 
 export default App;

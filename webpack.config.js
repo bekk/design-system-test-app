@@ -20,7 +20,7 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: /node_modules\/(?!classy-ui-demo-library)/,
+        exclude: /node_modules\/(?!@bekk\/design-system)/, // <- todo replace with your library
         use: {
           loader: "babel-loader",
           options: {

@@ -3,9 +3,9 @@
 ## React
 
 ```bash
-npm install webpack webpack-cli webpack-dev-server @babel/core babel-loader clean-webpack-plugin html-webpack-plugin --save-dev
+npm install webpack webpack-cli webpack-dev-server @babel/core babel-loader clean-webpack-plugin html-webpack-plugin @types/react @types/react-dom typescript ts-loader source-map-loader --save-dev
 
-npm install classy-ui
+npm install classy-ui react react-dom
 ```
 
 react
@@ -21,3 +21,10 @@ or
 
 npm link @bekk/design-system
 ```
+
+TODO
+
+- get classy ui working
+- get css working
+- use components from design system
+- hot reloading
